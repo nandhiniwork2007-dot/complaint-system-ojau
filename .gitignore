@@ -1,0 +1,39 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+/auth.json
+
+# Laravel generated files
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+/storage/*.key
+/storage/pail
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Dependencies
+/vendor
+/node_modules
+
+# Frontend build output
+/public/build
+/public/hot
+
+# IDE and operating system
+/.vscode
+/.idea
+/.fleet
+.DS_Store
+Thumbs.db
+
+# Logs and test artifacts
+*.log
+.phpunit.result.cache
+/.phpunit.cache
+
+# Local development tools
+Homestead.json
+Homestead.yaml
